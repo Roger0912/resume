@@ -1,0 +1,201 @@
+*{
+    list-style:none;
+}
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(font/HanyiSentyJournal.woff) format('woff'),
+    url(font/HanyiSentyJournal.ttf) format('truetype'),
+    url(font/HanyiSentyJournal.eot) format('embedded-opentype')
+  
+  }
+.skill{
+    position:absolute;
+    width:1200px;
+    height:300px ;
+    left: 50px; 
+    top:750px;
+       
+}
+* {box-sizing:border-box}
+.container {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  width: 600%; 
+  background-color: #ddd; 
+}
+.skills {
+  text-align: right; 
+  padding-top: -1px; 
+  padding-bottom: -1px; 
+  color: white;
+  height: 20px;
+}
+@keyframes bar1{
+    from{width: 0%;}
+    to{width: 80%;}
+}
+@keyframes bar2{
+    from{width: 0%;}
+    to{width: 60%;}
+}
+@keyframes bar3{
+    from{width: 0%;}
+    to{width: 70%;}
+}
+@keyframes bar4{
+    from{width: 0%;}
+    to{width: 50%;}
+}
+@keyframes bar5{
+    from{width: 0%;}
+    to{width: 70%;}
+}
+.html {
+     
+    animation: bar1 4s linear;
+    width: 80%;
+    animation-iteration-count:2;
+    background-color:aqua;
+}
+.css {
+    font-family:'Architects Daughter';
+    animation: bar2 4s linear;
+    width: 65%;
+    animation-iteration-count: 2;
+    background-color:aqua;
+}
+.phy {
+    font-family:'Architects Daughter';
+    animation: bar4 4s linear;
+    width: 50%;
+    animation-iteration-count:2; 
+    background-color:aqua;
+}
+.js {
+    font-family:'Architects Daughter';
+    animation: bar5 4s linear;
+    width: 70%;
+    animation-iteration-count: 2;
+     background-color:aqua;
+}   
+.skill1{
+    position:absolute;
+    left: 10px;
+    font-family:'Architects Daughter' ;
+    top:10px;
+}
+.skill2{
+    position:absolute;
+    font-family:'Architects Daughter' ;
+    top: -50px;
+}
+.schoolunversity{
+    position: absolute;
+    left: -10px;
+    top: 900px;
+}
+.wrap{
+    width: 960px;
+    margin: auto;
+    font-family: 'HanyiSentyJournal';
+}
+ .timeline{
+     padding: 100px;
+ }
+  .timeline a{
+      display: block;
+     text-decoration: none;
+     background-color: #fff;
+     border:1px solid #aaa;
+     box-sizing:border-box;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 3px 3px 5px #888;
+  }
+  .timeline a:hover{
+      background-color: #6fa5f6;
+  }
+  .timeline a:hover h2,
+  .timeline a:hover p
+  {
+     color: #fff;
+}
+
+  .timeline li{
+      width: 50%;
+      box-sizing: border-box;
+      padding: 30px 0;
+      position: relative;
+  }
+  .timeline li:nth-child(odd){
+    float: left;
+    padding-right: 100px;
+}
+.timeline li:nth-child(even){
+    float: right;
+    padding-left: 100px;
+    transform: translateY(50%);
+}
+
+.timeline li:nth-child(odd)::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    background-color: #ccc;
+    right: 0;
+}
+.timeline li:last-child::after{
+    height: 50%;
+}
+.timeline li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #aaa;
+    z-index: 2;
+}
+.timeline li:nth-child(odd)::before{
+   right: -10px;
+}
+.timeline li:nth-child(even)::before{
+
+   left:-10px ;
+}
+
+  .timeline h2{
+     color: #333;
+     font-family: 'HanyiSentyJournal';
+     font-weight: 700;
+     font-size: 20px;
+  }
+  .timeline p{
+      color: #666;
+      font-family: 'HanyiSentyJournal';
+      font-weight: 100;
+
+  }
+  .timeline h2::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color: #aaa;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+  }
+  .timeline li:nth-child(odd) h2::after{
+      right: 0;
+  }
+  .timeline li:nth-child(even) h2::after{
+      left: 0;
+  }

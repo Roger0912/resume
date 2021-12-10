@@ -1,0 +1,205 @@
+.circle{
+    position: absolute;
+    left: 600px; 
+    top:750px;
+    width: 800px;
+    height: 400px;
+    margin: 20px; 
+}
+.k0 h3{
+    position:absolute;
+    margin: 10px;
+    left: 18px;
+    top: -20px;
+    font-family: 'HanyiSentyJournal';
+    font-size: 50px;
+}
+.kl h2{
+    position:absolute;
+    margin: 10px;
+    left: 18px;
+    top: 40px;
+    font-family: 'HanyiSentyJournal';
+    font-size: 30px;
+}
+.k2 h2{
+    position:absolute;
+    margin: 10px;
+    left: 18px;
+    top: 88px;
+    font-family: 'HanyiSentyJournal';
+    font-size: 30px;
+}   
+.k3 h2{
+    position:absolute;
+    margin: 10px;
+    left: 18px;
+    top: 140px;
+    font-family: 'HanyiSentyJournal';
+    font-size: 30px;
+}  
+.progress{
+    width: 80%; 
+    height: 30px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin: 50px  100px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #ddd inset;
+    position: absolute;
+    left: 50px;
+    font-family:'Architects Daughter' ;
+}
+.progress span {
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    background: #2989d8;
+    background: -webkit-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); 
+    background-size: 60px 30px;
+    text-align: center ;
+    color:#fff;
+
+}
+.progress1{
+    width: 80%; 
+    height: 30px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin: 50px  100px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #ddd inset;
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    font-family:'Architects Daughter' ;
+}
+.progress1 span {
+    display: inline-block;
+    width: 65%;
+    height: 100%;
+    background: #2989d8;
+    background: -webkit-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); 
+    background-size: 60px 30px;
+    text-align: center ;
+    color:#fff;
+}
+.progress2{
+    width: 80%; 
+    height: 30px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin: 50px  100px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #ddd inset;
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    font-family:'Architects Daughter' ;
+}
+.progress2 span {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    background: #2989d8;
+    background: -webkit-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); 
+    background-size: 60px 30px;
+    text-align: center ;
+    color:#fff;
+}
+.phototip{
+    font-family: 'HanyiSentyJournal';
+    position:absolute;
+    width: 500px;
+    height: 1000px;
+    left: 1000px;
+    margin: 20px;
+    top: 1000px;
+}
+.EnterpriseIntroduction{
+    position: absolute;
+    margin: 20px;
+    text-align: center;
+}
+.EnterpriseIntroduction img{
+    border-radius:50px;
+    position: absolute;
+    -webkit-transition: opation 2s ease-in-out;
+    -moz-transition:opation 2s ease-in-out;
+    -o-transition:opation 2s ease-in-out ;
+    transition:opation 2s ease-in-out ; 
+}
+.EnterpriseIntroduction img:last-child:hover{
+    opacity: 0;
+}
+.management{
+    position: absolute;
+    margin: 20px;
+    top: 400px;
+    text-align: center;
+    font-family: 'HanyiSentyJournal';
+}
+.management img{
+    border-radius:50px;
+    position: absolute;
+    -webkit-transition: opation 2s ease-in-out;
+    -moz-transition:opation 2s ease-in-out;
+    -o-transition:opation 2s ease-in-out ;
+    transition:opation 2s ease-in-out ; 
+}
+.management img:last-child:hover{
+    opacity: 0;
+}
+.phototip1{
+    font-family: 'HanyiSentyJournal';
+    position:absolute;
+    width: 1000px;
+    height: 500px;
+    left: 40px;
+    margin: 20px;
+    top: 1800px;
+}
+
+.Mid-termtopic{
+    font-family: 'HanyiSentyJournal';
+    position: absolute;
+    margin: 20px;
+}
+.Mid-termtopic img{
+    border-radius:50px;
+    position: absolute;
+    -webkit-transition: opation 2s ease-in-out;
+    -moz-transition:opation 2s ease-in-out;
+    -o-transition:opation 2s ease-in-out ;
+    transition:opation 2s ease-in-out ; 
+}
+.Mid-termtopic img:last-child:hover{
+    opacity: 0;
+}
+.game{
+    position: absolute;
+    margin: 20px;
+    left: 500px;
+    font-family: 'HanyiSentyJournal';
+}
+.game img{
+    border-radius:50px;
+    position: absolute;
+    -webkit-transition: opation 2s ease-in-out;
+    -moz-transition:opation 2s ease-in-out;
+    -o-transition:opation 2s ease-in-out ;
+    transition:opation 2s ease-in-out ; 
+}
+.game img:last-child:hover{
+    opacity: 0;
+}
+.footer{
+    position: absolute;
+    top: 2300px;
+    left: 700px;
+    width: 500px;
+    text-align: center;
+    font-family: 'HanyiSentyJournal';
+    font-size: 20px;
+}
+

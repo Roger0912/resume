@@ -1,0 +1,74 @@
+@font-face{
+    font-family:'HanyiSentyJournal' ;
+    src: url(font/HanyiSentyJournal.woff) format('woff'),
+    url(font/HanyiSentyJournal.ttf) format('truetype'),
+    url(font/HanyiSentyJournal.eot) format('embedded-opentype')
+  
+  }
+.sentence{
+    border: 1px solid black;
+    outline-style: solid;
+    position:relative;
+    left:680px;
+    top: 150px;
+    margin: 20px;
+    float: left;
+    width: 750px;
+    height: 60px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+.experice{
+    background-image: url(../images/experice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:750px;
+    height:480px ;
+    border: 1px solid black;
+    outline-style: solid;
+    left: 680px;
+    top: 250px;
+    padding: 10px;
+    margin:20px ;
+    float: left;
+}
+.experice1{
+    top: 45px;
+    position: relative;
+    width: 45px;
+    font-size: 15PX;
+}   
+.dj{
+    position:relative;
+    font-family:'Architects Daughter', cursive;
+    font-size: 20px;
+}
+.school{
+    position:relative;
+    top:5px;
+    left: 10px;
+    font-size: 25px;
+    font-family: 'HanyiSentyJournal';
+}  
+.A1{
+    position: relative;
+    font-family:'Architects Daughter', cursive;
+    font-size:15px;
+}
+.experice2{
+    position: absolute;
+    width: 30px;
+    font-size: 13PX;
+    top: -2px;
+    left:420px ;
+}
+.unversity{
+    position: absolute;
+    font-size: 30PX;
+    top: 120px;
+    left:400px ;
+    font-family: 'HanyiSentyJournal';
+}
